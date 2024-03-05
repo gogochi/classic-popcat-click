@@ -9,11 +9,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #bdaa90;
+    background-color: #ffffff;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     position:relative;
+
     overflow:hidden;
 }
 body::before{
@@ -30,7 +31,7 @@ body::before{
 
 .title {
     margin:2em 0 0 0;
-    width: min(600px,80%);
+    width: min(1000px,80%);
 }
 
 .cat-img {
