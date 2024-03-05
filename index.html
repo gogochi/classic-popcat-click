@@ -1,16 +1,25 @@
+<!--設定文件格式為HTML5版本-->
 <!DOCTYPE html>
 
+<!--設定內容語系為英文，改為台灣繁體中文-->
 <html lang="zh-Hant-TW">
+<!--head 存放網頁的基本資訊 像是 title, meta, style-->
 <head>
     <title>POPCAT CLASSIC</title>
     <meta name="author" content="Joshua O'Sullivan, Freddy Heppell, Edward Hails">
+<!--    SEO 搜尋引擎最佳化 用燈塔去看-->
+    <meta name="description" content="Put your description here.">
 
+<!--    文件編碼是 UTF-8-->
     <meta charset="UTF-8">
+
+<!--    ios 可以看到    -->
     <meta name="theme-color" content="#b721ff">
 
     <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap&text=0123456789" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+TC:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yatra+One&display=swap&text=0123456789" rel="stylesheet">
 
     <style>
     html {
@@ -64,7 +73,7 @@
         -webkit-text-stroke-color: black;
         font-weight:900;
         font-size:80px;
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Yatra One', sans-serif;
         word-wrap: break-word;
     }
     @media(min-width:1000px) {
@@ -85,7 +94,7 @@
 <body>
 <img class="title" src="imgs/popcat.svg" alt="POPCAT">
 
-<div class="cat-img" id="p"></div>
+<div class="cat-img" id="p">123456</div>
 
 <script>
     /*Preloading alternate cat image*/
@@ -155,4 +164,5 @@
     document.addEventListener("keydown", op_func)
 </script>
 </body>
+
 </html>
