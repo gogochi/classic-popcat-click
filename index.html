@@ -116,11 +116,14 @@ let  open_popcat = function(){
 let close_popcat = function(){
     cat.id = "p";
 }
+function asynclose() {
+    setTimeout(close_popcat, 100);
+}
+
 document.addEventListener("keydown", open_popcat);
 document.addEventListener("pointerdown", open_popcat);
-document.addEventListener("keyup", close_popcat);
-document.addEventListener("pointerup", close_popcat);
-
+document.addEventListener("keyup", asynclose);
+document.addEventListener("pointerup", asynclose);
 
 
 </script>
